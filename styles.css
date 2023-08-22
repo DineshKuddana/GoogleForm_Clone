@@ -1,0 +1,338 @@
+
+
+/* Styling for head Section*/
+
+
+.blue{
+    border-top: 15px solid blueviolet;
+    border-radius:6%;
+    max-width: 50%;
+    margin: auto;
+}
+
+.head-section{
+    width:50%;
+    height:300px;
+    border:1px solid gray;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.head-section .content h1{
+    margin-left:30px;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.head-section .content p{
+    margin-left:30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.red{
+    color:red;
+}
+
+
+
+
+/* Styling for mcqs Section*/
+
+
+.mcq{
+    width:50%;
+    height:200px;
+    border:1px solid gray;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.mcq .content{
+    margin-left: 30px;
+}
+
+.mcq .content h3{
+    margin-top:35px;
+    margin-left: 10px;
+}
+
+input[type="radio"]{
+    width:20px;
+    height:15px;
+}
+
+
+
+
+
+/* Styling for checkbox  Section*/
+
+.check{
+    width:50%;
+    height:200px;
+    border:1px solid gray;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.check .content{
+    margin-left: 30px;
+}
+
+.check.content h3{
+    margin-top:35px;
+    margin-left: 10px;
+}
+
+input[type="checkbox"]{
+    width:25px;
+    height:20px;
+}
+
+
+
+
+/* Styling for short answer  Section*/
+
+
+.sa{
+    width:50%;
+    height:120px;
+    border:1px solid gray;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.sa .content{
+    margin-left: 30px;
+}
+
+input[type="textarea"]{
+    border: none;
+    border-bottom: 2px solid gray;
+    width:50%;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+/* Styling for paragraph Section*/
+
+
+.par{
+    width:50%;
+    height:120px;
+    border:1px solid gray;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.par .content{
+    margin-left: 30px;
+}
+
+.par .content input[type="textarea"]{
+    border: none;
+    border-bottom: 2px solid gray;
+    width:90%;
+    padding-bottom: 10px;
+}
+
+
+
+
+/* Styling for drop-down Section*/
+
+.drop{
+    width:50%;
+    height:150px;
+    border:1px solid gray;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.drop .content{
+    margin-left: 30px;
+    margin-top: 20px;
+   
+}
+
+.drop .content select[name="drops"]{
+    width:150px;
+    height:30px;
+    padding-left: 10px;
+    font-size:1rem;
+}
+
+
+/*File Section*/
+
+.file{
+    width:50%;
+    height:120px;
+    border:1px solid gray;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.file .content{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
+/*Linear content styling*/
+
+.linear{
+    width:50%;
+    height:180px;
+    border:1px solid gray;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.linear .content{
+    margin-left: 30px;
+    margin-top: 20px;
+   
+}
+
+.linear .content h3{
+    margin-bottom: 30px;
+}
+
+.linear .content .numbers{
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.linear .content .numbers .num{
+    padding-right: 55px;
+}
+
+.linear .content .circle .num2{
+    padding-right: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+  
+}
+
+.linear .content .circle .num1{
+    font-size: 20px;
+    margin-left: 60px;
+}
+.linear .content .circle input[type="radio"]{
+    margin-left: 32px;
+    width:30px;
+    height:20px;
+}
+
+
+/*multi choice styling*/
+
+.multi{
+    width:50%;
+    height:350px;
+    border:1px solid gray;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.multi .content{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.multi .content h3{
+    margin-bottom: 30px;
+} 
+
+.multi .content .cols{
+    margin-left: 230px;
+    font-size: 20px;
+}
+
+.multi .content .cols .col{
+    padding-right: 70px;
+}
+
+
+.row{
+    width:97%;
+    height:60px;
+    background-color:rgba(238, 244, 245, 0.848);
+    margin-bottom:10px;
+    
+}
+
+.multi .content .row .lin{
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.multi .content .row .lin input[type="radio"]{
+    margin-left: 130px;
+    width:30px;
+    height: 20px;
+}
+
+.multi .content .row .lin input[type="checkbox"]{
+    margin-left: 130px;
+    width:30px;
+    height: 20px;
+}
+
+
+.last button[type="submit"]{
+    margin-left: 24rem;
+    width:100px;
+    height:40px;
+    background-color: blueviolet;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.line{
+    width:200px;
+    height:12px;
+    background-color: green;
+    border-radius: 10px;
+    margin-top: -25px;
+    margin-left: 35rem;
+    
+}
+
+.last  a{
+   margin-left: 800px;
+   font-size: 20px;
+   color:black;
+}
+
+.clear{
+    margin-left: 80px;
+}
+
+
+
+
